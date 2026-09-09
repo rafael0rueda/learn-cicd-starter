@@ -20,6 +20,3 @@ jobs:
 
       - name: Run build
         run: ./scripts/buildprod.sh
-
-      - name: Build Docker image
-        run: docker build -t rafaelr/notely:latest .
